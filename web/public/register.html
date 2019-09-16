@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="stylee.css" />
+    </head>
+    <body>
+        <div class="regpage">
+            <div id="navbar"></div>
+            <div class="main">
+                <div class="logo">
+                    <img src="Images/logo.png" >
+                </div>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="loginn.html">Login</a></li>
+                </ul>
+            </div>
+
+            <h1>Register</h1>
+
+
+            <div class="formgroup">
+                <label for="username">User Name</label>
+                <input type="text" class="form-control" id="username" />
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" />
+            </div>
+
+            <div class="form-groupp">
+                <label for="confirmpassword">Confirm Password</label>
+                <input type="password" class="form-control" id="confirmpassword" />
+            </div>
+            
+            <button class="btn-success" id="register">Register</button>
+            <div id="errorrmessage"></div>
+            
+            <p>Already Have an account ? Login <a href="loginn.html">HERE</a></p>
+
+            <tbody></tbody>
+            
+            <div id="footer"></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

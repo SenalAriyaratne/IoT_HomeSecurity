@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HomeSecurity</title>
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="stylee.css" />
+        
+    </head>
+
+    <body>
+        <div class="galpage">
+            <div class="main">
+                <div class="logo">
+                    <img src="Images/logo.png" >
+                </div>
+                <ul>
+                    <li class="active"><a href="notifications.html">Notifications</a></li>
+                    <li><a href="devicelist.html">Device List</a></li>
+                    <li><a href="registerdevice.html">Add A Sensor</a></li>
+                    <li><a href="loginn.html">Logout</a></li>
+                </ul>
+            </div>
+
+            <div class="title">
+                <h1> Notifications</h1>
+
+                <table id="notifications" class="table">
+                    <thead>
+                        <tr>
+                            <th>Device</th>
+                            <th>Number of alerts</th>
+                            <th>Battery on sensor</th>
+                        </tr>
+                    </thead>
+
+                    <tbody></tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

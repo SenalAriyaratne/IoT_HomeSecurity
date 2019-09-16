@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "device": "MotionFrontDoor",
+        "sensor": "MotionSensor",
+        "status": "Offline",
+        "sensorData": [
+          {
+            "ts": "1529542230",
+            "temp": 12,
+            "loc": {
+              "lat": -37.84674,
+              "lon": 145.115113
+            }
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "device": "SoundLivingRoom",
+        "sensor": "SoundSensor",
+        "status": "Offline",
+        "sensorData": [
+          {
+            "ts": "1529542743",
+            "temp": 14,
+            "loc": {
+              "lat": 33.812092,
+              "lon": -117.918974
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "device": "GlassLivingRoom",
+        "sensor": "GlassBreakSensor",
+        "status": "Offline",
+        "sensorData": [
+          {
+            "ts": "1529572230",
+            "temp": 14,
+            "loc": {
+              "lat": -37.850026,
+              "lon": 145.117683
+            }
+          }
+        ]
+    }
+]
